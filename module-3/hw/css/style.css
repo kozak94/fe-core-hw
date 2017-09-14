@@ -20,6 +20,7 @@ body {
 .article-title {
 margin-bottom: 10px;
 color: #263555;
+font-size: 25px;
 }
 .article-image{
 margin-bottom: 10px;
@@ -31,6 +32,38 @@ height: 71px;
   color: #263555;
   margin-bottom: 10px;
 }
-.article-text{
+.article-text-for-padding{
+margin-left:70px;
+margin-bottom: 105px;
+}
+.article-text {
+  margin-top: 10px; 
+  margin-bottom: 10px;
+}
+.list {
+  vertical-align: top;
+  padding: 0px 30px;
+}
+.left-table{
+  display: inline-block;
+  list-style-image: url(../img/arrow.jpg);  
+  vertical-align: top;
+  width: 150px;
 
+
+}
+.right-table {
+  display: inline-block;
+  list-style-image: url(../img/arrow.jpg);  
+  */
+}
+
+.columns {
+  columns: 2;
+  vertical-align: top;
+  list-style: none;
+  list-style-image: url(../img/arrow.jpg);
+  }
+.arrow-up {
+  vertical-align: text-top;
 }
