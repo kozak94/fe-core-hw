@@ -1,0 +1,49 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.page-header {
+  position: relative;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.logo {
+  display: inline-block;
+  width: 139px;
+  height: 139px;
+  border-radius: 80px;
+  background: url(../img/logo.jpg);
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+}
+
+.menu {
+  display: flex;
+  background-image: linear-gradient(45deg, #d1dcf9, #69b0d9);
+  padding: 100px 100px 100px 100px;
+}
+
+.menu-item {
+  display: inline-block;
+  list-style-type: none;
+  justify-content: space-around;
+  margin: auto;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.menu-item:nth-child(3) {
+  margin-right: 139px;
+}
+
+.menu-item:nth-child(4) {
+  margin-left: 139px;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #ffffff;
+}
