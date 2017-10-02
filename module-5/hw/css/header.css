@@ -1,0 +1,132 @@
+.page-header {
+  position: relative;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.logo {
+  display: inline-block;
+  width: 139px;
+  height: 139px;
+  border-radius: 80px;
+  background: url(../img/logo.jpg);
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+}
+
+.menu {
+  display: flex;
+  background-image: linear-gradient(45deg, #d1dcf9, #69b0d9);
+  padding: 100px 100px 100px 100px;
+}
+
+.menu-item {
+  position: relative;
+  list-style-type: none;
+  margin: auto;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.menu-item:nth-child(3) {
+  margin-right: 139px;
+}
+
+.menu-item:nth-child(4) {
+  margin-left: 139px;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -30%;
+  text-decoration: none;
+  background: url(../img/bcg-sub-menu.jpg);
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.sub-menu::before {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translatex(-50%);
+  content: '';
+  border: 10px solid transparent;
+  border-bottom: 15px solid #ffffff;
+}
+
+.sub-menu-item {
+  display: block;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.sub-menu-link {
+  text-decoration: none;
+  color: #6b7488;
+}
+
+.menu-item:hover>.sub-menu {
+  display: block;
+  color: #263555
+}
+
+.menu-item:hover {
+  color: #263555
+}
+
+.menu-item>a:hover {
+  color: #263555;
+}
+
+.left-arrow {
+  border-radius: 100% 0 0 100%/ 50% 0 0 50%;
+  float: left;
+  width: 45px;
+  height: 90px;
+  background: #38afe5;
+  text-decoration: none;
+  text-align: center;
+  line-height: 90px;
+}
+
+.left-arrow:after {
+  content: "\2190";
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.right-arrow {
+  border-radius: 0 100% 100% 0/ 0 50% 50% 0;
+  float: left;
+  width: 45px;
+  height: 90px;
+  background: #38afe5;
+  text-decoration: none;
+  text-align: center;
+  line-height: 90px;
+}
+
+.right-arrow:after {
+  content: "\2192";
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.left-arrow:hover {
+  opacity: 0.5;
+}
+
+.right-arrow:hover {
+  opacity: 0.5;
+}

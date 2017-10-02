@@ -1,0 +1,35 @@
+.promo-block {
+  width: 100%;
+  position: relative;
+  padding-bottom:60px; 
+}
+.promo-text-up{
+  display:inline-block;
+  position: absolute;
+  left: -1%;
+  bottom: 47%;
+  background: #fff;
+  color: #263555;
+  font-size:23px;
+  padding: 20px 15px;
+  text-transform: uppercase;
+  transform: translateX(10px);
+  }
+.promo-text-down{
+  display:inline-block;
+  position: absolute;
+  left: -1%;
+  bottom: 37%;
+  background: #38afe5;
+  color: #fff;
+  font-size:35px;
+  padding: 15px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  transform: translate(10px,-10px);
+}
+.slaider {
+  position: absolute;
+  top: 75%;
+  left: 5%;
+}
