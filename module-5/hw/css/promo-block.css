@@ -1,7 +1,11 @@
 .promo-block {
   width: 100%;
   position: relative;
-  padding-bottom:60px; 
+  margin-bottom:60px; 
+}
+.promo-img {
+  display: inline-block;
+  width: 100%;
 }
 .promo-text-up{
   display:inline-block;
