@@ -4,6 +4,7 @@ padding: 5rem 0;
 
 .footer-socials {
   display: flex;
+ justify-content: center;
 }
 
 .footer-icon {
