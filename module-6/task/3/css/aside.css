@@ -1,0 +1,32 @@
+.aside {
+  width: 30%;
+  color: #263555;
+  font-family:'Pathway Gothic One', sans-serif;
+  }
+.category {
+  margin-bottom: 50px;
+}
+.list-item {
+  list-style-type: none;
+  
+  font-family:'Arial', sans-serif;
+margin: 10px;
+}
+.list-item::before {
+  content:url(..img/arrow.jpg);
+  margin-right: 12px;
+}
+.list-link{
+  text-decoration: none;
+}
+.category-title{
+  text-transform: uppercase;
+  font-size: 34px;
+  padding-bottom:40px; 
+}
+.archive-title{
+  text-transform: uppercase;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 34px;
+  padding-bottom:40px; 
+}
