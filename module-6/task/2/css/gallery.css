@@ -18,9 +18,9 @@
   margin-bottom: 20px;
 }
 
-.gallery-item::before {
+/*.gallery-item::before {
   background-image: url(..img/icon.jpg);
-}
+}*/
 
 .gallery-item:hover {
   filter: contrast(30%);
