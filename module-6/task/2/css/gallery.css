@@ -12,16 +12,32 @@
   font-size: 34px;
 }
 
-
 .gallery-item {
   flex-basis: 32%;
   margin-bottom: 20px;
+  position: relative;
 }
+
 
 /*.gallery-item::before {
   background-image: url(..img/icon.jpg);
 }*/
 
 .gallery-item:hover {
-  filter: contrast(30%);
+  filter: contrast(30%); }
+
+.gallery-item:hover>.gallery-icon {
+display: block;
+}
+
+.gallery-icon {
+  display: none;
+  width: 288px;
+  height: 155px;
+  background: url(../img/icon.jpg);
+  opacity: 0.5;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: 1000;
 }
