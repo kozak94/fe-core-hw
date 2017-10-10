@@ -4,7 +4,7 @@
   padding: 100px 100px 100px 100px;
   width: 1024px;
   margin: auto;
-  opacity: 0;
+  /* opacity: 0; */
 }
 
 .logo {
@@ -26,7 +26,6 @@
 
 .menu {
   display: flex;
-  
 }
 
 .menu-item {
@@ -54,9 +53,10 @@
   display: none;
   position: absolute;
   top: 100%;
-  left: -30%;
+  left: -10%;
   text-decoration: none;
-  background: url(../img/bcg-sub-menu.jpg);
+  background: #fff;
+  font-size: 18px;
   padding: 10px;
   border-radius: 5%;
 }
@@ -84,13 +84,17 @@
 
 .menu-item:hover>.sub-menu {
   display: block;
-  color: #263555
+  color: #263555;
 }
 
 .menu-item:hover {
-  color: #263555
+  color: #263555;
 }
 
 .menu-item>a:hover {
+  color: #263555;
+}
+
+.sub-menu-link:hover {
   color: #263555;
 }
