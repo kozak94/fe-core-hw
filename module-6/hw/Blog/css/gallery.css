@@ -1,0 +1,27 @@
+.gallery-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.gallery-title {
+  text-transform: uppercase;
+  color: #263555;
+  margin: 50px 0px;
+  font-size: 34px;
+}
+
+
+.gallery-item {
+  flex-basis: 32%;
+  margin-bottom: 20px;
+}
+
+.gallery-item::before {
+  background-image: url(..img/icon.jpg);
+}
+
+.gallery-item:hover {
+  filter: contrast(30%);
+}
