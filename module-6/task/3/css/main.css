@@ -38,11 +38,7 @@
 .header-text{
   display: flex;
   padding-left: 45px; 
-  
 }
-/* .coments {
-  justify-content:	flex-end;
-} */
 
 .name-user {
   flex-grow: 5;
