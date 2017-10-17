@@ -8,45 +8,56 @@
 .main-title {
   text-transform: uppercase;
   font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 34px;
+  font-size: 2.125rem;
   }
 
 .post {
-  padding-top: 20px;
+  padding-top: 1.25rem;
 }
 
 .post-header {
-  
+  display: flex;
+  align-items: center;
+  /* max-width: 30rem; */
+ /*  flex-grow: 1; */
 }
-.post-date{
-  background-color: #1789FC;
-  display: inline-block;
-  color: #fff;
-  font-size: 14px;
-  border-radius: 15px;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  line-height: 30px;
-  margin-right: 15px;
+.post-header-date{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 2rem;
+ height: 2rem;
+ margin-right: 0.675rem;
+ border-radius: 50%;
+ background-color: #38afe5;
+ color: #fff;
+ font-size: 0.6rem;
+ text-transform: uppercase;
 }
 .post-header-title {
-  display: inline-block;
+  color: #263555;
+	font-size: 0.825rem;
+	line-height: 1.3;
+	text-transform: uppercase;
     
   }
 
-.header-text{
+.post-header-info{
   display: flex;
-  padding-left: 45px; 
+	justify-content: space-between; 
 }
 
-.name-user {
-  flex-grow: 5;
+.post-header-info p {
+  color: #868f8f;
+	font-size: 0.625rem;
+	font-weight: 400;
+	line-height: 1.5;
 }
 
 .article {
   display: flex;
-  padding: 20px 0px 90px 0px;
+  padding: 1.25rem 0rem 5.675rem 0rem;
   border-bottom: 1px solid #dedbdb;
 }
 
@@ -54,7 +65,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .article-link {
@@ -64,15 +75,15 @@
   top: 100%;
   border-radius: 10%;
   border: 1px solid #e8e6e6;
-  padding: 5px 5px;
+  padding: 0.3125rem 0.3125rem ;
 }
 
 .article-title {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .article-text {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 

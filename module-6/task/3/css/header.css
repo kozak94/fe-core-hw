@@ -1,7 +1,7 @@
 .page-header {
   position: relative;
   font-family: 'Pathway Gothic One', sans-serif;
-  padding: 100px 100px 100px 100px;
+  padding: 6.25rem 6.25rem 6.25rem 6.25rem;
   width: 1024px;
   margin: auto;
   /* opacity: 0; */
@@ -9,18 +9,18 @@
 
 .logo {
   position: absolute;
-  width: 139px;
-  height: 139px;
-  border-radius: 80px;
+  width: 8.6875rem;
+  height: 8.6875rem;
+  border-radius: 5rem;
   background: #fff;
   left: 43%;
   top: 25%;
   text-align: center;
-  line-height: 139px;
+  line-height: 8.6875rem;
   text-decoration: none;
   text-decoration-color: #263555;
   text-transform: uppercase;
-  font-size: 60px;
+  font-size: 3.75rem;
   font-family: 'Dorsa', sans-serif;
 }
 
@@ -32,16 +32,16 @@
   position: relative;
   list-style-type: none;
   margin: auto;
-  font-size: 28px;
+  font-size: 1.75rem;
   text-transform: uppercase;
 }
 
 .menu-item:nth-child(3) {
-  margin-right: 139px;
+  margin-right: 8.6875rem;
 }
 
 .menu-item:nth-child(4) {
-  margin-left: 139px;
+  margin-left: 8.6875rem;
 }
 
 .menu-link {
@@ -56,19 +56,19 @@
   left: -10%;
   text-decoration: none;
   background: #fff;
-  font-size: 18px;
-  padding: 10px;
+  font-size: 1.125rem;
+  padding: 0.625rem;
   border-radius: 5%;
 }
 
 .sub-menu::before {
   position: absolute;
-  top: -15px;
+  top: -0.9375rem;
   left: 50%;
   transform: translatex(-50%);
   content: '';
-  border: 10px solid transparent;
-  border-bottom: 15px solid #ffffff;
+  border: 0.675rem solid transparent;
+  border-bottom: 0.9375rem solid #ffffff;
 }
 
 .sub-menu-item {

@@ -1,7 +1,7 @@
 .promo-block {
   width: 100%;
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 3.75rem;
 }
 
 .promo-img {
@@ -16,8 +16,8 @@
   bottom: 47%;
   background: #fff;
   color: #263555;
-  font-size: 23px;
-  padding: 20px 15px;
+  font-size: 1.4375rem;
+  padding: 1.25rem 0.9375rem;
   text-transform: uppercase;
   transform: translateX(10px);
 }
