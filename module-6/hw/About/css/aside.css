@@ -3,38 +3,60 @@
   color: #263555;
   font-family: 'Pathway Gothic One', sans-serif;
 }
-
-.category {
-  margin-bottom: 3.125rem;
+.our-principles-list {
+  counter-reset: list;
+  list-style: none;
+ }
+.our-principles-list-text {
+  font-size: 13px;
+  color: #4e5050;
+  padding-left: 37px;
+}
+.our-principles-list-item::before {
+  counter-increment: list;
+  content: counter(list);
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 15px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #1789FC;
+  color: #fefefe;
+}
+.testimonial-quote {
+  position: relative;
+  border: 1px solid #4e5050;
+  margin-bottom: 60px;
+  padding: 20px;
+  font-size: 15px;
+  color: #263555;
+  background: #fcfafa;
+  
 }
 
-.list-item {
-  list-style-type: none;
-  font-family: 'Arial', sans-serif;
-  margin: 0.625rem;
+.testimonial-quote::before {
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  transform: translatex(-50%);
+  content: '';
+  border: 1rem solid white;
+  border-top: 0.9375rem solid black;
 }
 
-.list-item::before {
-  width: 0.9375rem;
-  height: 0.9375rem;
-  content: url(../img/arrow.jpg);
-  margin-right: 0.75rem;
+.testimonial-name {
+  text-align: center;
+  font-size: 15px;
+  color: #263555;
+  font-weight: 400;
+ 
 }
 
-.list-link {
-  text-decoration: none;
-}
-
-.category-title {
-  text-transform: uppercase;
-  font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 2.125rem;
-  margin-bottom: 2.5rem;
-}
-
-.archive-title {
-  text-transform: uppercase;
-  font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 2.125rem;
-  margin-bottom: 2.5rem;
+.testimonial-text {
+  text-align: center;
+  font-size: 13px;
+  color: #4e5050;
 }
