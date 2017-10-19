@@ -22,7 +22,9 @@
 .footer-socials {
   display: flex;
   width: 100%;
-  height: auto ;
+  padding: 1.5625rem 0rem;
+  margin: auto;
+  justify-content: center;
 }
 
 .footer-icon {
@@ -33,22 +35,26 @@
 }
 .bg-facebook {
     width: 40px; height: 40px;
-    background: url('css_sprites.png') -10px -10px;
+    background: url('../img/css_sprites.png') -10px -10px;
+    
 }
 
 .bg-google_plus {
     width: 40px; height: 40px;
-    background: url('css_sprites.png') -70px -10px;
+    background: url('../img/css_sprites.png') -70px -10px;
+    margin-right: 0.9375rem;
 }
 
 .bg-linkedin {
     width: 40px; height: 40px;
-    background: url('css_sprites.png') -130px -10px;
+    background: url('../img/css_sprites.png') -130px -10px;
+    margin-right: 0.9375rem;
 }
 
 .bg-twitter {
     width: 40px; height: 40px;
-    background: url('css_sprites.png') -190px -10px;
+    background: url('../img/css_sprites.png') -190px -10px;
+    margin-right: 0.9375rem;
 }
 .container {
   max-width: 75rem;
