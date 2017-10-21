@@ -29,6 +29,12 @@ body {
   content: '';
   clear: both;
 }
-.section-body {
+/* .section-body {
   display: flex;
+} */
+.firth-section{
+display: flex;
+}
+.second-section{
+  display: flex; 
 }

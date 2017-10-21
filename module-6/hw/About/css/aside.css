@@ -3,15 +3,18 @@
   color: #263555;
   font-family: 'Pathway Gothic One', sans-serif;
 }
+
 .our-principles-list {
   counter-reset: list;
   list-style: none;
- }
+}
+
 .our-principles-list-text {
   font-size: 13px;
   color: #4e5050;
   padding-left: 37px;
 }
+
 .our-principles-list-item::before {
   counter-increment: list;
   content: counter(list);
@@ -26,6 +29,7 @@
   background-color: #1789FC;
   color: #fefefe;
 }
+
 .testimonial-quote {
   position: relative;
   border: 1px solid #4e5050;
@@ -34,17 +38,20 @@
   font-size: 15px;
   color: #263555;
   background: #fcfafa;
-  
 }
 
 .testimonial-quote::before {
+  content: "";
   position: absolute;
   bottom: -2rem;
   left: 50%;
   transform: translatex(-50%);
-  content: '';
-  border: 1rem solid white;
-  border-top: 0.9375rem solid black;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 2rem 2rem 0 2rem;
+  border-color:  transparent transparent transparent #fcfafa;
 }
 
 .testimonial-name {
@@ -52,7 +59,7 @@
   font-size: 15px;
   color: #263555;
   font-weight: 400;
- 
+  
 }
 
 .testimonial-text {

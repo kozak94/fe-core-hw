@@ -7,7 +7,7 @@
 .--title {
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 2rem;
-  padding: 3.125rem 0rem 3.125rem 0rem;
+  padding-bottom: 3.125rem;
   text-transform: uppercase;
   font-weight: 400;
 }
