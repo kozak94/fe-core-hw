@@ -1,0 +1,44 @@
+.aside {
+  width: 30%;
+  color: #263555;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+.form {
+ 
+
+}
+.input-conteiner{
+
+  
+}
+.input-conteiner input{
+  margin-bottom: 1rem;
+  width:100%;
+  }
+.input-container input:last-child{
+  margin-bottom: 0rem;}
+
+::-webkit-input-placeholder {color: #30455b; text-transform: uppercase; padding-left: 0.5rem; }
+
+
+.btn-conteiner{
+ width: 100%;
+  display: flex;
+  justify-content:	flex-end;
+  
+}
+.btn-conteiner button{
+  margin-right: 1rem;
+  padding:0rem 1.5rem;
+  background-color: #fbf6f8;
+  border: 1px solid #b1aaaa;
+  border-radius: 10%;
+}
+.btn-conteiner button:last-child{
+  margin-right: 0rem;
+}
+textarea {
+  width: 100%;
+  resize:none;
+  margin-bottom:1.25rem;
+}

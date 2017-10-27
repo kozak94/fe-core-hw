@@ -1,0 +1,30 @@
+.main {
+  width: 65%;
+  margin-right: 5%;
+  color: #263555;
+}
+
+.--title {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 3.125rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.map_phone {
+  display: flex;
+  
+  
+}
+.table{
+  display: flex;
+  flex-wrap: wrap;
+}
+.email{
+  text-decoration: none;
+  color: #fa7e7e;
+
+}
+iframe{
+  margin-right: 1rem;
+}
