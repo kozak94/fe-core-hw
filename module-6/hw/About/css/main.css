@@ -7,7 +7,7 @@
 .--title {
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 2rem;
-  padding-bottom: 3.125rem;
+  margin-bottom: 3.125rem;
   text-transform: uppercase;
   font-weight: 400;
 }
@@ -18,7 +18,7 @@
 }
 
 h3,p {
-  padding-bottom: 1.25rem; 
+  margin-bottom: 1.25rem; 
 }
 .offer-list {
   columns: 2;

@@ -10,12 +10,11 @@
 
 .footer-list {
   list-style: none;
-  display: flex;
-  flex-grow: 1;
-  flex-wrap: wrap;
-  }
+  display: block;
+  columns: 3;
+}
 .footer-list-item{
- flex-basis:33%;
+  display: block;
   font-size: 1rem;
 }
 .footer-list-link {
@@ -30,6 +29,7 @@
   text-decoration: none;
   color: white;
   text-transform: uppercase;
+  display: inline;
 }
 
 .contact ul {
