@@ -1,6 +1,6 @@
 .main {
-  width: 65%;
-  margin-right: 5%;
+  width: 75%;
+  /* margin-right: 5%; */
   color: #263555;
 }
 
@@ -13,12 +13,16 @@
 }
 .map_phone {
   display: flex;
+  flex-basis:50%; 
   
-  
+}
+.map{
+width: 100%;
 }
 .table{
   display: flex;
   flex-wrap: wrap;
+  flex-basis: 50%;
 }
 .email{
   text-decoration: none;
