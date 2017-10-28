@@ -47,7 +47,7 @@ font-weight: 400;
   text-transform: uppercase;
 }
 .details{
- transform: translateX(300%);
+  transform: translateX(300%);
   margin: 1rem 0rem;
   padding:0rem 0.625rem;
   border-radius: 0.5rem;
@@ -57,5 +57,6 @@ font-weight: 400;
   border: 1px solid #b1aaaa;
   border-radius: 10%;
   color:#000000;
+  font-family: Arial, Helvetica, sans-serif;
  
 }

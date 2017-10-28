@@ -14,10 +14,12 @@
   flex-grow: 1;
   flex-wrap: wrap;
 }
-.footer-list-item{
+
+.footer-list-item {
   flex-basis: 33%;
   font-size: 1rem;
 }
+
 .footer-list-link {
   display: block;
   text-decoration: none;
@@ -84,7 +86,7 @@
   margin-right: 0.9375rem;
 }
 
-.last-p{
+.last-p {
   display: flex;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
