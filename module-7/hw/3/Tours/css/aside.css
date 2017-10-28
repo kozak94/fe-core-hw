@@ -3,7 +3,11 @@
   color: #263555;
   font-family: 'Pathway Gothic One', sans-serif;
 }
-
+.browse{
+  display: flex;
+  flex-direction:	column;
+  width: 13.125rem;
+}
 .text-over-form{
   font-family: Arial, sans-serif;
   font-size:0.625rem;
@@ -16,6 +20,11 @@
 .atext {
 margin-bottom: 1rem;
 background-color: #e3e2e2;
+color: #fff;
+height:2.3125rem;
+-webkit-appearance: none;
+
+
 }
 .btn-conteiner button{
   margin: 1rem 0rem;
