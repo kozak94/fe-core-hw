@@ -1,0 +1,47 @@
+.aside {
+  width: 30%;
+  color: #263555;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.text-over-form{
+  font-family: Arial, sans-serif;
+  font-size:0.625rem;
+  margin-bottom: 0.75rem;
+  
+}
+.firth-select {
+  margin-bottom: 1rem;
+}
+.atext {
+margin-bottom: 1rem;
+background-color: #e3e2e2;
+}
+.btn-conteiner button{
+  margin: 1rem 0rem;
+  padding:0rem 0.625rem;
+  border-radius: 0.5rem;
+  font-size: 0.8125rem;
+  text-decoration: none;
+  background-color: #fbf6f8;
+  border: 1px solid #b1aaaa;
+  border-radius: 10%;
+  
+}
+.search{
+  display: flex;
+  flex-direction:	column;
+  width: 13.125rem;
+}
+.search-title{
+  text-transform: uppercase;
+  color: #30455b;
+  margin-bottom: 3.125rem;
+}
+.search-link {
+  text-decoration: none;
+  color:#38afe5;
+  font-family: Arial, sans-serif;
+  font-size:0.625rem;
+  margin-bottom: 0.5rem;
+  }

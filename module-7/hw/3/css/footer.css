@@ -1,0 +1,94 @@
+.page-footer {
+  width: 64rem;
+  margin: auto;
+  background-color: #30455b;
+  padding: 2.5rem 8.4375rem 2rem 8.4375rem;
+  display: flex;
+  font-family: 'Open Sans Condensed', sans-serif;
+  justify-content: space-between;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+.footer-list-item{
+  flex-basis: 33%;
+  font-size: 1rem;
+}
+.footer-list-link {
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.contact {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  display: inline;
+}
+
+.contact ul {
+  list-style: none;
+}
+
+.info {
+  color: white;
+  padding-bottom: 0rem;
+}
+
+.footer-socials {
+  display: flex;
+  width: 100%;
+  padding: 1.5625rem 0rem;
+  margin: auto;
+  justify-content: center;
+}
+
+.footer-icon {
+  display: block;
+  width: 64px;
+  height: 64px;
+  background-image: url("../img/css_sprites.png");
+}
+
+.bg-facebook {
+  width: 40px;
+  height: 40px;
+  background: url('../img/css_sprites.png') -10px -10px;
+}
+
+.bg-google_plus {
+  width: 40px;
+  height: 40px;
+  background: url('../img/css_sprites.png') -70px -10px;
+  margin-right: 0.9375rem;
+}
+
+.bg-linkedin {
+  width: 40px;
+  height: 40px;
+  background: url('../img/css_sprites.png') -130px -10px;
+  margin-right: 0.9375rem;
+}
+
+.bg-twitter {
+  width: 40px;
+  height: 40px;
+  background: url('../img/css_sprites.png') -190px -10px;
+  margin-right: 0.9375rem;
+}
+
+.last-p{
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+  color: #fff;
+  margin-bottom: 3.75rem;
+}
