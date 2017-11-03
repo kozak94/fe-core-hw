@@ -1,0 +1,42 @@
+
+
+.gallery-body {
+    list-style: none;
+}
+
+.gallery-title {
+  text-transform: uppercase;
+  color: #263555;
+  margin: 50px 0px;
+  font-size: 34px;
+}
+
+.gallery-item {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+.gallery-img{
+  width: 100%;
+  
+}
+
+.gallery-item:hover {
+  filter: contrast(50%); }
+
+.gallery-item:hover>.gallery-icon {
+display: block;
+}
+
+.gallery-icon {
+  display: none;
+  width: 1.875rem;
+  height: 1.875rem;
+  background: url(../img/icon.jpg);
+  opacity: 0.5;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
