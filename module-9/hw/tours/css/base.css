@@ -16,7 +16,7 @@ body {
   /* background: linear-gradient(to top, #141E30, #243B55); */
 }
 
-.conteiner { 
+.container { 
   margin: auto;
   max-width: 1024px;
   min-width: 480px;
