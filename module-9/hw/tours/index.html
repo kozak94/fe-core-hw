@@ -5,13 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-  
   <link href="https://fonts.googleapis.com/css?family=Dorsa" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-  
+
   <title>Tours</title>
 </head>
 
@@ -50,9 +50,9 @@
       </li>
     </ul>
   </header>
-  <div class="wrapper conteiner">
-    <div class="main row">
-      <h2 class="mains --title ">stay in touch</h2>
+  <div class="wrapper containder ">
+    <div class="main row ">
+      <h2 class="mains --title col-12 ">tours specials</h2>
       <ul class="gallery-body col-12 col-lg-9">
         <li class="gallery-card col-12 col-md-6 col-lg-4">
           <div class="card-body">
@@ -111,7 +111,7 @@
 
           </div>
         </li>
-        <li class="gallery-card col-12 col-md-6 col-lg-4 hidden-xs-down">
+        <li class="hidden-xs gallery-card col-12 col-md-6 col-lg-4 ">
           <div class="card-body">
             <img class="card-img" src="img\card-5.jpg" alt="">
             <div class="card-descr">
@@ -126,7 +126,7 @@
 
           </div>
         </li>
-        <li class="gallery-card col-12 col-md-6 col-lg-5 hidden-sm-down">
+        <li class="hidden-xs gallery-card col-12 col-md-6 col-lg-5 ">
           <div class="card-body">
             <img class="card-img" src="img/card-6.jpg" alt="">
             <div class="card-descr">
@@ -143,68 +143,81 @@
         </li>
       </ul>
     </div>
-    <div class="aside row">
-      <h2 class="asides --title">browse</h2>
-      <section class="browse col-12 justify-content-between ">
-        <p class="text-over-form">Browse by Tour Operator</p>
-        <select class="firth-select" name="counrty">
-          <option value="1" disabled selected>Browse by Tour Operator</option>
-          <option value="2">Греция</option>
-          <option value="3">Египет</option>
-          <option value="4">Тунис</option>
-        </select>
-        <!-- <select class="atext" name="atext" placeholder="Browse by Tour Operator...">
-          <option value="1" disabled selected>Browse by Tour Operator...</option>
-          <option value="1" disabled selected>Browse by Tour Operator...</option>
-          <option value="1" disabled selected>Browse by Tour Operator...</option>
-        </select> -->
-        <div class="btn-conteiner">
-          <button type="submit">Search</button>
-        </div>
-      </section>
+    <div class="aside row ">
+      <div class="firth-block row ">
+        <h2 class="asides --title col-12">browse tours</h2>
+        <section class="browse">
+          <p class="text-over-form">Browse by Tour Operator</p>
+          <select class="firth-select" name="counrty">
+            <option value="1" disabled selected>Browse by Tour Operator</option>
+            <option value="2">Греция</option>
+            <option value="3">Египет</option>
+            <option value="4">Тунис</option>
+          </select>
+          <div class="btn-conteiner">
+            <button type="submit">Search</button>
+          </div>
+        </section>
+      </div>
+
       <section class="search">
-        <h2 class="search --title">search</h2>
+        <h2 class="search --title ">search tours</h2>
         <a href="#" class="search-link">All Tour Operator</a>
-        <p class="text-over-form">Destination</p>
-        <select class="firth-select" name="counrty">
-          <option value="1" disabled selected>Any Destination</option>
-          <option value="2">option2</option>
-          <option value="3">option2</option>
-          <option value="4">option2</option>
-        </select>
-        <p class="text-over-form">Departing</p>
-        <select class="firth-select" name="counrty">
-          <option value="1" disabled selected>Any Departing</option>
-          <option value="2">option2</option>
-          <option value="3">option2</option>
-          <option value="4">option2</option>
-        </select>
-        <p class="text-over-form">Price</p>
-        <select class="firth-select" name="counrty">
-          <option value="1" disabled selected>Any price</option>
-          <option value="2">option2</option>
-          <option value="3">option2</option>
-          <option value="4">option2</option>
-        </select>
-        <p class="text-over-form">Browse by Tour Operator</p>
-        <select class="firth-select" name="counrty">
-          <option value="1" disabled selected>Any duration</option>
-          <option value="2">option2</option>
-          <option value="3">option2</option>
-          <option value="4">option2</option>
-        </select>
-        <!-- <select class="atext" name="atext" placeholder="Any duration ...">
-          <option value="1" disabled selected>Any duration ...</option>
-          <option value="1" disabled selected>Any duration ...</option>
-          <option value="1" disabled selected>Any duration ...</option>
-        </select> -->
+        <div class="block row">
+          <div class="Destination col-6">
+            <p class="text-over-form ">Destination</p>
+            <select class="firth-select col-6" name="counrty">
+              <option value="1" disabled selected>Any Destination</option>
+              <option value="2">option2</option>
+              <option value="3">option2</option>
+              <option value="4">option2</option>
+            </select>
+          </div>
+          <div class="Price col-6">
+            <p class="text-over-form">Price</p>
+            <select class="firth-select col-6 " name="counrty">
+              <option value="1" disabled selected>Any price</option>
+              <option value="2">option2</option>
+              <option value="3">option2</option>
+              <option value="4">option2</option>
+            </select>
+          </div>
+        </div>
+        <div class="block2 row">
+          <div class="Departing col-6">
+            <p class="text-over-form">Departing</p>
+            <select class="firth-select col-6" name="counrty">
+              <option value="1" disabled selected>Any Departing</option>
+              <option value="2">option2</option>
+              <option value="3">option2</option>
+              <option value="4">option2</option>
+            </select>
+          </div>
+
+          <div class="Duration col-6">
+            <p class="text-over-form">Duration</p>
+            <select class="firth-select col-6" name="counrty">
+              <option value="1" disabled selected>Any duration</option>
+              <option value="2">option2</option>
+              <option value="3">option2</option>
+              <option value="4">option2</option>
+            </select>
+          </div>
+        </div>
+
+
+
+
+
+
+
         <div class="btn-conteiner">
           <button type="submit">Search</button>
         </div>
       </section>
     </div>
   </div>
-  <footer class="page-footer container">
+  <footer class="page-footer ">
     <ul class="footer-list">
       <li class="footer-list-item">
         <a href="#" class="footer-list-link">faqs page</a>

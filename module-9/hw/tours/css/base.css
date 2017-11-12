@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: url(../img/bcg-img.jpg);
+  background-size: cover;
+   font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.page {
+  min-height: 100vh;
+  /* background: linear-gradient(#3a6186, #556270); */
+  /* background: linear-gradient(to top, #141E30, #243B55); */
+}
+
+.wrapper { 
+  margin: auto;
+  max-width: 1024px;
+  min-width: 480px;
+  min-height: 100vh;
+  padding: 3.75rem;
+  background-color: #fefefe;
+}
