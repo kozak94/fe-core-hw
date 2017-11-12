@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.sidebar {
+  height: 200px;
+  background-color:rgb(207, 126, 19);
+}
+
+.content {
+  height: 200px;
+  background-color: rgb(221, 25, 188);
+}
+.grid{
+  height: 200px;
+  background-color:rgb(207, 126, 19);
+}
+.no-gutter > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+.box{
+  height: 100px;
+  background-color:rgb(19, 207, 144);
+}
+.box1{
+  height: 100px;
+  background-color:rgb(207, 47, 19);
+}

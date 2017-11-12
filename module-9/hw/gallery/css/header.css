@@ -1,0 +1,98 @@
+.page-header {
+  padding: 2rem 0;
+  margin-bottom: 3.125rem;
+}
+
+/* .logo-conteiner {
+  display: flex;
+  margin: auto;
+  padding: 1.5rem;
+} */
+
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+  text-decoration-color: #263555;
+  text-transform: uppercase;
+  font-size: 2.0775rem;
+  font-family: 'Dorsa', sans-serif;
+  margin: auto;
+  margin-bottom: 30px;
+     
+}
+.menu-conteiner {
+  display: flex;
+  width: 14.375rem;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 3.75rem;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  
+}
+
+.menu-item {
+  text-transform: uppercase;
+  flex-basis: 33%;
+  text-align: center;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  left: 47%;
+  top: 25%;
+  text-decoration: none;
+  background: #fff;
+  font-size: 0.875rem;
+  padding: 0.375rem;
+  border-radius: 5%;
+}
+
+.sub-menu::before {
+  position: absolute;
+  top: -20%;
+  left: 30%;
+  content: '';
+  border: 0.625rem solid transparent;
+  border-bottom: 0.5rem solid #fff;
+}
+
+.sub-menu-item {
+  display: block;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.sub-menu-link {
+  text-decoration: none;
+  color: #6b7488;
+}
+
+.menu-item:hover>.sub-menu {
+  display: block;
+  color: #263555
+}
+
+.menu-item:hover {
+  color: #263555
+}
+
+.menu-item>a:hover {
+  color: #263555;
+}
