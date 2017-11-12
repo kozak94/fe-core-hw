@@ -15,13 +15,8 @@ body {
   /* background: linear-gradient(#3a6186, #556270); */
   /* background: linear-gradient(to top, #141E30, #243B55); */
 }
-.wrapper {
-  width: 30rem;
+.conteiner {
   margin: auto;
-  
   padding: 2.3125rem;
   background-color: #fefefe;
-}
-a {
-  text-decoration: none;
 }

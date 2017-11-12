@@ -112,10 +112,16 @@
   } */
  
   .page-footer {
-    width: 64rem;
-    display: flex;
+    /* width: 64rem;
+    display: flex; */
     padding: 2.25rem 4.6875rem 3.125rem 3.125rem;
     
+  }
+  .contact {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
   }
 
 

@@ -27,8 +27,8 @@
   } */
   
   .page-footer {
-    width: 48rem;
-    display: flex;
+    /* width: 48rem;
+    display: flex; */
     padding: 2.25rem 4.6875rem 3.125rem 3.125rem;
     
   }
@@ -49,15 +49,7 @@
     text-transform: uppercase;
     font-weight: 100;
   }
-  .contact-mobile{
-    display: none;
-  }
-  .contact {
-    display: inline;
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-  }
+    
   .contact ul {
     list-style: none;
   }
