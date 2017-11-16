@@ -15,8 +15,18 @@ body {
   /* background: linear-gradient(#3a6186, #556270); */
   /* background: linear-gradient(to top, #141E30, #243B55); */
 }
+<<<<<<< HEAD
 .container {
   margin: auto;
   padding: 2.3125rem;
   background-color: #fefefe;
+=======
+.conteiner {
+    margin: auto;
+    max-width: 1024px;
+    min-width: 480px;
+    min-height: 100vh;
+    padding: 2.3125rem;
+    background-color: #fefefe;
+>>>>>>> dce3914e7b0d20fc6c6a0611457c285efb65762e
 }
