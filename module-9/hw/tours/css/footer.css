@@ -1,5 +1,5 @@
 .page-footer {
-  width: 64rem;
+  
   margin: auto;
   background-color: #30455b;
   padding: 2.5rem 8.4375rem 2rem 8.4375rem;
@@ -34,9 +34,19 @@
   text-transform: uppercase;
   display: inline;
 }
-
-.contact ul {
-  list-style: none;
+.contact-title{
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  display: inline;
+}
+.contact-tel {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  display: inline;
+  font-size: 0.75rem;
 }
 
 .info {

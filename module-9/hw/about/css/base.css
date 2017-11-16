@@ -20,7 +20,9 @@ body {
   margin: auto;
   max-width: 1024px;
   min-width: 480px;
-  min-height: 100vh;
   padding: 2.3125rem;
   background-color: #fefefe;
+}
+.pseudo-h{
+  font-size: 0.9375rem;
 }
